@@ -6,63 +6,63 @@ export const LABS: LabConfig[] = [
     id: 'glass',
     label: 'Glassmorphism',
     icon: Layers,
-    description: 'Depth through frosted surfaces and backdrop-filters.'
+    description: 'Design frosted glass effects with backdrop-filters.'
   },
   {
     id: 'neon',
     label: 'Neon Glow',
     icon: Zap,
-    description: 'High-end lighting with layered text-shadows.'
+    description: 'Create electrified text with multiple shadow layers.'
   },
   {
     id: 'cube',
     label: '3D Transform',
     icon: Box,
-    description: 'Orthographic and perspective 3D transformations.'
+    description: 'Manipulate CSS 3D space and perspectives.'
   },
   {
     id: 'blob',
     label: 'Morphing Blob',
     icon: Shapes,
-    description: 'Smooth, fluid containers via border-radius morphing.'
+    description: 'Generate organic shapes using border-radius morphing.'
   },
   {
     id: 'neumorphism',
     label: 'Neumorphism',
     icon: MousePointer2,
-    description: 'Extruded surfaces using distance-based shading.'
+    description: 'Soft UI generator for extruded plastic interfaces.'
   },
   {
     id: 'glitch',
     label: 'Glitch Text',
     icon: Activity,
-    description: 'Achromatic channel splitting and distortion patterns.'
+    description: 'Retro RGB-split text effects and distortion.'
   },
   {
     id: 'gradient-text',
     label: 'Gradient Text',
     icon: Palette,
-    description: 'Linear gradients clipped to typographic forms.'
+    description: 'Clip gradients to text with optional animations.'
   },
   {
     id: 'long-shadow',
     label: 'Long Shadow',
     icon: MoveDownRight,
-    description: 'Deep orthographic shadows for visual weight.'
+    description: 'Generate deep, flat shadows for a dramatic effect.'
   },
   {
     id: 'gradient-border',
     label: 'Gradient Border',
     icon: Frame,
-    description: 'Precise boundary highlights with masked gradients.'
+    description: 'Create borders with gradient fills using masking.'
   }
 ];
 
 export const DEFAULT_GLASS: GlassState = {
-  blur: 16,
-  opacity: 0.1,
-  saturation: 140,
-  borderRadius: 16
+  blur: 12,
+  opacity: 0.15,
+  saturation: 180,
+  borderRadius: 24
 };
 
 export const DEFAULT_NEON: NeonState = {
@@ -98,10 +98,10 @@ export const DEFAULT_NEUMORPHISM: NeumorphismState = {
 };
 
 export const DEFAULT_GLITCH: GlitchState = {
-  text: 'STOCHASTIC',
-  offset: 2,
-  color1: 'rgba(255,255,255,0.4)',
-  color2: 'rgba(255,255,255,0.2)'
+  text: 'ERROR_404',
+  offset: 3,
+  color1: '#ff00ff', // Magenta
+  color2: '#00ffff'  // Cyan
 };
 
 export const DEFAULT_GRADIENT_TEXT: GradientTextState = {
