@@ -1,0 +1,5 @@
+{
+  "name": "CSS Designer",
+  "description": "An interactive playground to generate and experiment with advanced CSS effects like Glassmorphism, Neon Glow, and 3D Transforms.",
+  "requestFramePermissions": []
+}
